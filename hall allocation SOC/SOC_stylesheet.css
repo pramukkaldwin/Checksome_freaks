@@ -14,9 +14,19 @@ img{
 	
 }
 
-.soc_halls{
-	height: 100px;
-	width: auto;
 
 
+
+.hall{
+
+	padding-bottom: 50px;
+	padding-top: 50px; 
+	padding-left: 50px;
+	padding-right: 50px;
+
+
+}
+
+body{
+background-position: absolute;
 }
