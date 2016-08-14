@@ -1,0 +1,65 @@
+/*external stylesheet for Hall allocation page*/
+
+/*background image*/
+body { 
+  background: url(pexels-photo-52608.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+h1 {
+	color: #F7F8E0;
+	text-shadow: 2px 2px #0101DF;  
+}
+
+p {  
+	font-size: 20;
+	text-align:top-right;
+}
+
+#computing{
+  color: #424242;
+  font-style: italic;
+  font-size: 25;
+  float: left;
+  display: inline-flex;
+}
+
+#management{
+  color: #424242;
+  font-style: italic;
+  font-size: 25;
+  float: center;
+  display:inline-flex;
+}
+
+#engineering{
+  color: #424242;
+  font-style: italic;
+  font-size: 25;
+  float: center;
+  display:inline-flex;
+ }
+
+
+.pos_fixed{
+  width:170px;
+  height:100px;
+  position:absolute;
+  top:150px;
+  right:10px;
+}
+
+.img-responsive{
+  margin: 0 auto;
+}
+

@@ -1,0 +1,42 @@
+/*external stylesheet for clubs page*/
+
+body {
+   /*background image*/
+ /* background: url(background.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+
+
+  /*padding-bottom: 30px;
+}
+
+
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;*/
+}
+
+h3{
+  margin-left: 50px;
+}
+
+img{
+  margin-left: 100px;
+}
+
+a:link    {color:#e0e0d1; background-color:transparent; text-decoration:none;}
+a:visited {color:#dd99ff; background-color:transparent; text-decoration:none}
+a:hover   {color:#009999; background-color:transparent; text-decoration:none;}
+a:active  {color:#ff9900; background-color:transparent; text-decoration:none;}

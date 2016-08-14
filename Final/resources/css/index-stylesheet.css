@@ -1,0 +1,17 @@
+/*external stylesheet for home page*/
+
+/*background image*/
+body {
+   background-image: url("woman-typing-writing-windows.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat:no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
