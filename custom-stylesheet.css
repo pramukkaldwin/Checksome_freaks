@@ -1,8 +1,8 @@
-/*external stylesheet for clubs and societies page*/
+/*external stylesheet for clubs and societies page
 
 body 
 {
-   /*background image*/
+   /*background image
  	background: url(background.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -12,7 +12,7 @@ body
   padding-top: 70px;
   padding-bottom: 30px;
 }
-
+*/
 
 
 .theme-dropdown .dropdown-menu 
@@ -34,12 +34,12 @@ body
 
 h1
 {
-  font color: #ffffff;
+  
 }
 
 h3
 {
-  color: #ffffff;
+  
   margin-left: 50px;
 }
 

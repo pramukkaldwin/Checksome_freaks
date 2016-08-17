@@ -1,10 +1,11 @@
-/*#main-container {
+#main-container {
     position: relative;
     margin: 0 auto;
     width: 100%;
     min-height: 100%;
     max-width: 1200px;
-    background-color: #FFFFFF;}*/
+    background-color: #FFFFFF;
+}
 
 .header {
     position: absolute;
@@ -21,14 +22,17 @@
 .affix + #top-container {
     padding-top: 100px;
 }
+
 header{
 
 }
 
-footer
+footer{
+
+}
 
 
-/*.site-footer {
+.site-footer {
     background-color: #2aabd2;
 
     bottom: 100px;
@@ -37,12 +41,13 @@ footer
     padding-top: 30px;
 }
 
-.bottom-footer{
+/*.bottom-footer{
+
     margin-top: 10px;
     padding-top: 10px;
     color: cadetblue;
-    border-top: 1px solid cadetblue;
-}
+    border-top: 1px solid cadetblue;*/
+
 
 .footer-nav {
     text-align: right;
@@ -52,6 +57,7 @@ footer
 .footer-nav li{
     display: inline;
 }
+
  .footer-nav li:not(:first-child):before {
      content: '|';
      padding: 10px;
@@ -65,3 +71,8 @@ footer
      color: #c4e3f3;
      text-decoration: none;
  }
+
+ul
+{
+    list-style-type: none;
+}

@@ -28,7 +28,7 @@ body {
   width: auto;*/
 }
 
-h3{
+/*h3{
   margin-left: 50px;
 }
 
@@ -39,4 +39,179 @@ img{
 a:link    {color:#e0e0d1; background-color:transparent; text-decoration:none;}
 a:visited {color:#dd99ff; background-color:transparent; text-decoration:none}
 a:hover   {color:#009999; background-color:transparent; text-decoration:none;}
-a:active  {color:#ff9900; background-color:transparent; text-decoration:none;}
+a:active  {color:#ff9900; background-color:transparent; text-decoration:none;}*/
+
+/*external stylesheet for clubs and societies page*/
+
+
+
+
+
+.theme-dropdown .dropdown-menu
+{
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn
+{
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container
+{
+  width: auto;
+}
+
+
+{
+
+}
+
+h3
+{
+
+  margin-left: 50px;
+}
+
+img
+{
+  left: 20px;
+  margin-left: 100px;
+  box-shadow: 10px 10px 5px #628bb8;
+  border-radius: 8px;
+}
+
+.test1
+{
+  border-radius: 50px 10px 10px 15px;
+  border: 2px outset black;
+  width: 700px;
+  height: 200px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
+
+.test2
+{
+  border-radius: 50px 10px 10px 15px;
+  border: 2px outset black;
+  width: 700px;
+  height: 310px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
+
+.test3
+{
+  border-radius: 50px 10px 10px 15px;
+  border: 2px outset black;
+  width: 700px;
+  height: 70px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
+
+.test4
+{
+  border-radius: 50px 10px 10px 15px;
+  border: 2px outset black;
+  width: 700px;
+  height: 15px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
+
+.test5
+{
+  border-radius: 50px 10px 10px 15px;
+  border: 2px outset black;
+  width: 700px;
+  height: 200px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
+
+.test6
+{
+  border-radius: 50px 10px 10px 15px;
+  border: 2px outset black;
+  width: 700px;
+
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
+
+.right1
+{
+  position: absolute;
+  right: 30px;
+  top: 270px;
+  text-align: justify;
+  color: white;
+}
+
+.right2
+{
+  position: absolute;
+  right: 30px;
+  top: 500px;
+  text-align: justify;
+  color: white;
+}
+
+.right3
+{
+  position: absolute;
+  right: 30px;
+  top: 900px;
+  text-align: justify;
+  color: white;
+}
+
+.right4
+{
+  position: absolute;
+  right: 30px;
+  top: 1150px;
+  text-align: justify;
+  color: white;
+}
+
+.right5
+{
+  position: absolute;
+  right: 30px;
+  top: 1400px;
+  text-align: justify;
+  color: white;
+}
+
+.right6
+{
+  position: absolute;
+  right: 30px;
+  top: 1750px;
+  text-align: justify;
+  color: white;
+}
+
+
+
+
+
+
+

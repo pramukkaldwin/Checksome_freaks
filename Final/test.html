@@ -18,16 +18,21 @@
     <link href="vendors/css/bootstrap-theme.min.css" rel="stylesheet">
 
     <!--custom stylesheet-->
+    <link href="resources/css/home.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link href="resources/css/login-stylesheet.css" rel="stylesheet">
 
 
 </head>
+
 <body>
 
 <!--<header id="header">
     <a href="home.html"><img src="resources/images/head.gif"></a>
 </header>-->
 
-<div class="container-fluid" style=height:100px;">
+<div  class="container-fluid" style=height:108px;">
     <a href="home.html"><img src="resources/images/head.gif"></a>
     <h6>Bootstrap Affix Example</h6>
 </div>
@@ -36,101 +41,114 @@
 
 
 <!--fixed navbar-->
-<nav class="navbar navbar-default navbar-top" data-spy="affix" data-offset-top="197">
+<nav class="navbar navbar-default navbar-top" data-spy="affix" data-offset-top="197" >
     <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
+
+        <!--logo-->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#LMSnav" aria-expanded="false">
+                <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Brand</a>
+            <a href="#" class="navbar-brand">LMS NSBM</a>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <!--menu items-->
+        <div class="collapse navbar-collapse" id="LMSnav">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Link</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
-                    </ul>
-                </li>
+                <li class="active"><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="clubs.html">Socities & Clubs</a></li>
+                <li><a href="facility.html">Facilities</a></li>
             </ul>
-            <form class="navbar-form navbar-left">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                </div>
-                <button type="submit" class="btn btn-default">Submit</button>
-            </form>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Link</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
-
-<footer class="panel-footer">
-    <h5 class="h5">
-        LMS NSBM
-    </h5>
-</footer>
-
-
-<!-- Start of the footer -->
-
-
-<!--footer class="site-footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5">
-                <h5>contact address</h5>
-                <address>
-                    39990,djndd<br>
-                    jnwdjnw,dhwbdhwd,<br>
-                    djwndja.
-                </address>
-            </div>
-        <p>jkbnhabhbdkabda</p>
-        </div>
-        <div class="bottom-footer">
-            <div class="col-md-5"></div>
-            <div class="col-md-7"></div>
-            <ul class="footer-nav">
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+                <!--li><a href="registeration.html"><span class="glyphicon glyphicon-user"></span> Sign-Up</a></li-->
+                <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
             </ul>
         </div>
     </div>
-</footer-->
-<!-- End of the footer -->
+</nav><!--end of navbar-->
+
+<!-- Begin page content -->
+
+
+<div class="container-fluid" style="height:450px">
+
+    <div class="">
+
+        <form class="form-signin">
+            <h2 class="text-center">Please Log in</h2>
+            <label for="inputEmail" class="sr-only">Username OR Email address</label>
+            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                </label>
+            </div>
+            <button class="btn btn-lg btn-info btn-block" type="submit">Login</button>
+        </form>
+
+    </div> <!-- /container -->
+</div>
+
+
+<footer class="panel-footer">
+
+    <div class="container-fluid">
+        <ul class="col-xs-12 col-sm-3">
+            <li><h3><a href="#">Contact Us</a></h3></li>
+            <li>309, High Level Road,</li>
+            <li>Colombo 05,</li>
+            <li>Sri Lanka</li>
+            <li>Tel: <a href="tel:+94115445000">+94 (11) 544 5000</a></li>
+            <li>Fax: <a href="tel:+94115445009">+94 (11) 544 5009</a></li>
+            <li>Email: <a href="mailto:info@nsbm.lk">info@nsbm.lk</a></li>
+        </ul>
+        <!--h3>
+            NSBM
+        </h3>
+        <div class="row">
+            <div class="col-md-5">
+                <h5>Contact Address</h5>
+                <address>
+                    309, High Level Rd,<br>
+                    Colombo 05,<br>
+                    Sri Lanaka
+                </address>
+                <p></p>
+            </div>
+        </div-->
+
+        <div class="bottom-footer">
+            <div class="col-xs-12 col-sm-3 footer-nav"><h5>© lms</h5></div>
+            <ul class="footer-nav">
+                <li><a href="">NWBM</a></li>
+                <li><a href="">Pdebwkjdjwk</a></li>
+                <li><a href="">TRY</a></li>
+                <li><a href="">YOUR</a></li>
+            </ul>
+            <div>
+            </div><p>
+            <a href="http://validator.w3.org/check?uri=referer"><img
+                    src="http://www.w3.org/Icons/valid-xhtml10"
+                    alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+        </p><a href="http://www.w3.org/html/logo/">
+            <img src="https://www.w3.org/html/logo/badge/html5-badge-h-connectivity-css3-device-semantics-storage.png" width="261" height="64" alt="HTML5 Powered with Connectivity / Realtime, CSS3 / Styling, Device Access, Semantics, and Offline &amp; Storage" title="HTML5 Powered with Connectivity / Realtime, CSS3 / Styling, Device Access, Semantics, and Offline &amp; Storage">
+        </a><a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">Valid CSS</a>
+        </div>
+
+
+    </div>
+</footer>
 
 <!--jQuery-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!--All other js plugins-->
 <script src="vendors/js/bootstrap.min.js"></script>
-<script src="resources/javascript/home.js"></script>
+
 </body>
 </html>
